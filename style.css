@@ -1,0 +1,360 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+/* .section1 {
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-sea-background-sandy-summer-beach-bokeh-lights-light-blue-sky-beautiful-texture-space-131428079.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+
+}
+
+
+.nav_Bar {
+    background-color: rgb(23, 151, 119);
+    overflow: hidden;
+    text-align: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 3px;
+    height: 80px;
+    transition: height 1s;
+    z-index: 1;
+
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    float :centre;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+    top: 27px;
+    transition: font-size 0.5s,position 0.5s;
+    
+}
+.nav_Bar a:hover{
+    background-color: rgb(100, 207, 57);
+    color: rgb(255, 255, 255);
+    text-decoration: teal;
+    font-size:27px;
+    height: 150px;
+    position: relative;
+    padding: 26px;
+    }
+.nav_Bar :not(:hover) {
+    position: relative;
+    align-self: center;
+}
+
+
+
+.header2 {
+    
+    display: flex;
+    justify-content: center;
+    
+    height: 150px;
+}
+.Heading {
+    
+    animation: bouncing 0.5s ease 0s infinite alternate both ;
+    height: 50%;
+   position: relative;
+  top: 85px;
+  font-size: 40px;
+  
+}
+
+header {
+    padding: 40px;
+    background-color: rgb(54, 170, 190);
+    border-radius: 10px;
+}
+
+.flex_container1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-evenly;
+    height: 80vh;
+    background-color: rgb(255, 254, 254);
+}
+.flex-box {
+    align-content: stretch;
+    width: 500px;
+    text-align: center;
+    align-content: center;
+    font-size: 1.5em;
+    color: rgb(255, 255, 255);
+    height: 80%;
+    width: 25%;
+    border-radius: 20px;
+    transition: width 0.5s,height 0.25s , border-radius 0.25s,background-color 1s,font-size 0.5s;
+    
+    
+}
+.flex-box-sub {
+    background-color: rgb(145, 255, 2);
+    height: 45%;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+
+
+@keyframes bouncing {
+    0% {
+        bottom: 0;
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.3) ;
+    }
+    100% {
+        top: 10px;
+        text-shadow: 0 50px 50px rgba(0, 0, 0, 0.1)  ;
+
+    }
+}
+.flex-box:hover{
+    width: 33%;
+    height: 100%;
+    font-size: 2em;
+    
+    }
+    
+
+.flex-box-bottom {
+    background-color: crimson;
+    align-self: center;
+    height:60%;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+.flex-box-top { 
+    background-color: rgb(190, 190, 190);
+    height: 40%;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    
+}
+#flex-top1 {
+    background-image: url(Javascript/donotclickme.png);
+    background-position: center;
+    background-size: 100%;
+    background-position-y: 50px;
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-color: rgb(200, 255, 0);
+}
+#flex-bottom1 {
+    background-color: rgb(31, 172, 43);
+    transition: background-color 0.5s ;
+}
+#flex-bottom1:hover { 
+    background-color:rgb(119, 219, 53); 
+}
+#look-inside1 {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px ;
+    
+   
+}
+.project-button {
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    transition: all 0.1s;
+    height: 40px;
+    width: 170px;
+    background-image: linear-gradient(to right,rgb(94, 255, 0),rgb(20, 172, 199));
+    border: none;
+    border-radius: 10px;
+
+}
+.project-button:hover{
+    -webkit-transform: skewX(0deg);
+  -moz-transform: skewX(0deg);
+  -ms-transform: skewX(0deg);
+  transform: skewX(0deg);
+}
+#button2 {
+    background-image: linear-gradient(to right,rgb(255, 0, 0),rgb(241, 192, 192));
+
+}
+#flex-top2 {
+    background-image: url(Javascript/vendorlist.png);
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y:50px;
+    background-color: rgb(185, 239, 255);
+    
+}
+#para2 {
+    margin: 10px;
+}
+
+#flex-box1{
+    align-self: center;
+    
+}
+
+#flex-box2 {
+    
+    
+}
+#flex-box3 {
+    background-color: rgb(144, 11, 184);
+    align-self:flex-end;
+}
+.flex-box-top-head {
+    text-decoration: none;
+    font-size: inherit;
+    color: black;
+    position: relative;
+    top: 10px;
+}
+#link1 {
+    color: rgb(0, 0, 0);
+    
+    transition: color 1s,font-size 0.3s;
+}
+#link1:hover {
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 105%;
+    position: relative;
+    
+}
+
+
+
+a[href="https://www.instagram.com/alvin.adarsh_404/"]{
+    color: rgb(94, 21, 21);
+}
+#aboutDev {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 50vh;
+}
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.flex-item1 {
+    justify-content:center;
+    justify-items: left;
+    flex-basis: 33%;
+
+}
+.flex-item2 {
+    justify-content:center;
+    justify-items: left;
+    flex-basis: 33%;
+    
+
+}
+.flex-item3 {
+    justify-content:center;
+    justify-items: left;
+    flex-basis: 33%;
+    
+
+}
+@media not all and (orientation:landscape)
+{
+.flex_container {
+    flex-direction: column;
+
+    
+
+}
+.flex-item1
+{
+    justify-content: center;
+    
+}
+}
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+.footer :hover{
+    background-color: white;
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+    
+}
+.footer a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    float :centre;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 30px;
+  
+}
+
+@media (orientation: landscape) {
+    body {
+        color: rgb(7, 7, 7);
+    }
+}

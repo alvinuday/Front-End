@@ -1,0 +1,29 @@
+.container{
+    border-color: rgb(102, 255, 0);
+    background-color: blue;
+    border-width: 20px;
+}
+
+body {
+    background-color:red;
+}
+
+.box {
+    background-color: red;
+}
+.button {
+    position: relative;
+    top:200px;
+    left: 40%;
+    height: 300px;
+    width: 300px;
+    font-size:50px;
+    color: white;
+    background-color:red;
+    border-radius:100%;
+    box-shadow: 10px 20px 12px #000000;
+
+}
+.folder {
+    background-color: black;
+}

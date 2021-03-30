@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<script src="./task2java.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+  * {
+    font-family: Raleway;
+    font-size:large;
+  }
+  h1 {
+    font-family:Raleway;
+    font-size: 40px ;
+  
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+   /*  background-color: red; */
+    flex-direction: column;
+  }
+  .field1 {
+    align-items: flex-start;
+    
+  }
+  .subcontainer1,.subcontainer2,.subcontainer3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+  .field5 {
+    
+    position: relative;
+    left: 35px;
+  }
+ 
+  
+  .box2 {
+    position: relative;
+    right:3.5%;
+  }
+  .submit {
+    font-size: 20px;
+    width:150px;
+    height: 40px;
+    color:white;
+    background-color: rgb(255, 46, 19);
+    border-radius: 20px;
+    border: red;
+    box-shadow:  3px 5px 5px rgb(255, 35, 35);
+  }
+  .input{
+    border-bottom: 1px solid black; 
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width:160%;
+  }
+
+  .paras{
+  
+    position: relative;
+    left: 10%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:20%;
+    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .cancelbutton {
+    background-color: rgb(255, 73, 73);
+    position: relative;
+    left: 10%;
+    width:100px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px red solid;
+    box-shadow:  0px 5px 5px rgb(255, 35, 35);
+
+   
+  }
+  .container4{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  </style>
+  
+<body>
+  <h1 align="center">Check Vendor Performance 	
+   </h1>
+  <div class="container">
+    <div class="subcontainer1">
+    <div class="field1"><div>Expected Delivery Date</div><br><input type="date" class="input" name="expected" value="" id="expected" ></div>
+    
+    <div class="field2"><div>Received Date</div><br><input type="date" class="input" name="Received" value="" id="received"></div>
+  </div>
+  <br><br><br><br>
+  <div class="subcontainer2">
+    <div class="field3"><div>Quantity Demanded</div><br><input type="text" class="input" id="quantity-demanded" placeholder="Quantity Demanded" value="" name="quantity-demanded"></div>
+    <div class="field4"><div>Quantity Received</div><br><input type="text" class="input" id="quantity-received"placeholder="Quantity Received" value="" name="quantity-received"></div>
+  </div>
+  <br><br><br><br>
+  <div class="subcontainer3">
+    <div class="box1">
+      <div class="field5"><div>Quantity Returned</div><br><input type="text" class="input" id="quantity-returned" value="" placeholder="Quantity Returned"></div>
+
+    </div>
+    <div class="box2"><button class="submit" onclick = "clicked()" >Submit</button> <button class="submit" onclick = "cleared()" >Clear</button></div></div>
+  </div><br><br><br><br>
+  <div class="container4"></div>
+
+</body>
+
+
+
+</html>
