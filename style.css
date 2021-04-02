@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 * {
     box-sizing: border-box;
+    font-family: Nunito;
 }
 
 body {
@@ -131,6 +134,7 @@ header {
     height: 100%;
     font-size: 2em;
     
+    
     }
     
 
@@ -212,12 +216,9 @@ header {
     
 }
 
-#flex-box2 {
-    
-    
-}
+
 #flex-box3 {
-    background-color: rgb(144, 11, 184);
+    background-color:#49a261;
     align-self:flex-end;
 }
 .flex-box-top-head {
@@ -353,8 +354,32 @@ footer a {
   
 }
 
-@media (orientation: landscape) {
+/* @media (orientation: landscape) {
     body {
         color: rgb(7, 7, 7);
     }
+} */
+
+#link3 {
+    color: white;
+    font-family: poppins;
 }
+#flex-box-top3 {
+    background-color: #facd4a;
+    background-image: url(Javascript/Gdrive-back.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position-y: 50px;
+    
+}
+
+#flex-box-bottom2 {
+    background-color: #49a261;
+    position: relative;
+    
+}
+#button3{
+    background-image: linear-gradient(to right ,rgb(94, 255, 0),#facd4a);
+}
+
